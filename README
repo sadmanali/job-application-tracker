@@ -1,0 +1,7 @@
+# Job Application Tracker (React + Express + PostgreSQL)
+
+Full-stack app for tracking job applications, built with:
+- Backend: Node.js, Express, PostgreSQL
+- Frontend: React (Vite)
+
+Work in progress.
