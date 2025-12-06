@@ -1,0 +1,15 @@
+/* frontend/src/index.css */
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #0f172a; /* dark navy */
+  color: #e5e7eb;           /* light gray */
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
