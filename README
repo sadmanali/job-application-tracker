@@ -1,3 +1,14 @@
+# Job Application Tracker
+
+Full-stack demo project built with:
+- React + Vite
+- Node.js + Express
+- PostgreSQL
+
+---
+
+## Setup Instructions
+
 ```bash
 # 1. Clone the repo
 git clone https://github.com/<your-username>/job-application-tracker-react-express.git
