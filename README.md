@@ -1,3 +1,4 @@
+```bash
 # 1. Clone the repo
 git clone https://github.com/<your-username>/job-application-tracker-react-express.git
 cd job-application-tracker-react-express
@@ -18,13 +19,13 @@ CREATE DATABASE job_tracker;
 # Create table
 CREATE TABLE job_applications (
     id SERIAL PRIMARY KEY,
-    company_name      VARCHAR(255) NOT NULL,
-    job_title         VARCHAR(255) NOT NULL,
-    status            VARCHAR(50)  NOT NULL DEFAULT 'APPLIED',
-    application_date  DATE,
-    notes             TEXT,
-    created_at        TIMESTAMP NOT NULL DEFAULT NOW(),
-    updated_at        TIMESTAMP NOT NULL DEFAULT NOW()
+    company_name VARCHAR(255) NOT NULL,
+    job_title VARCHAR(255) NOT NULL,
+    status VARCHAR(50) NOT NULL DEFAULT 'APPLIED',
+    application_date DATE,
+    notes TEXT,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
 # Exit PostgreSQL
@@ -38,8 +39,7 @@ cd backend
 # Install dependencies
 npm install
 
-# Create environment file
-# (Create backend/.env manually with the following values)
+# Create backend/.env manually:
 # PORT=5000
 # DB_HOST=localhost
 # DB_PORT=5432
@@ -47,12 +47,8 @@ npm install
 # DB_USER=postgres
 # DB_PASSWORD=your_password_here
 
-# Start backend server
+# Start backend
 npm run dev
-
-# Backend runs at:
-# http://localhost:5000/
-# http://localhost:5000/health
 
 # ----------------------------------------------------
 # 4. Frontend setup
@@ -62,8 +58,10 @@ cd ../frontend
 # Install dependencies
 npm install
 
-# Start development server
+# Start frontend
 npm run dev
 
-# Frontend runs at:
-# http://localhost:5173
+# Project URLs:
+# Backend:  http://localhost:5000
+# Frontend: http://localhost:5173
+```
